@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Alameen-Demibold';
+    src: url('../fonts/Alameen.ttf');
+}
+
+* {
+    -primary-color: #ececec;
+    -second-color: #1b1a33;
+    -success-color: #1b1a33;
+    -fx-font-family: Alameen-Demibold;
+    -fx-background-radius: 8 8 8 8;
+}
+
+.root {
+    
+	-fx-background-color: -primary-color;
+    -fx-background-radius: 8 8 8 8;
+
+}
+
+.menu-bar {
+    -fx-background-radius: 8 8 0 0;
+	-fx-background-color: -second-color
+}
+
+JFXComboBox {
+    -fx-prompt-text-fill: #E1EBE8;
+    -jfx-unfocus-color: #E1EBE8;
+    -jfx-focus-color: #E1EBE8;
+    -fx-text-fill: #E1EBE8;
+    -fx-cursor: hand;
+}
+
+.jfx-combo-box .cell {
+    -fx-text-fill: -second-color;
+}
+
+/* Start top part */
+
+.hamburger StackPane { /* Menu icon */
+    -fx-background-color: -second-color;
+    -fx-cursor: hand
+}
+
+.combo-city {
+	-fx-pref-width: 200px;
+	-fx-pref-height: 40px;
+	-fx-font-size: 18px;
+}
+
+.btn-close{ /* Close button */
+    -fx-pref-width: 18px;
+    -fx-pref-height: 18px;
+    -fx-background-color: #FC5653;
+    -fx-background-radius: 100%;
+}
+
+.btn-close:hover{
+    -fx-cursor: hand;
+    -fx-background-color: red;
+    -fx-background-radius: 100%;
+}
+
+.btn-min{ /* Hide button */
+    -fx-pref-width: 18px;
+    -fx-pref-height: 18px;
+    -fx-background-color: #29CC41;
+    -fx-background-radius: 100%;
+}
+
+.btn-min:hover{
+    -fx-cursor: hand;
+    -fx-background-color: green;
+    -fx-background-radius: 100%;
+}
+
+/* End top part */
+
+/* Start content part */
+
+.lbl-title {
+    -fx-font-size: 20px;
+    -fx-text-fill: -second-color;
+}
+
+.lbl-date-hijri {
+	-fx-font-size: 25px;
+	-fx-text-fill: -second-color ;
+}
+.lbl-date {
+	-fx-font-size: 15px;
+	-fx-text-fill: rgb(70, 70, 55) ;
+}
+
+.lbl-time {
+	-fx-font-size: 28px;
+    -fx-font-weight: bold;
+	-fx-text-fill: -primary-color ;
+}
+
+.lbl-prayer-title {
+	-fx-font-size: 30px;
+	-fx-font-weight: bold;
+	-fx-text-fill: -second-color;
+}
+
+.box-prayer {
+	-fx-background-color: rgba(255, 255, 255,0.3);
+	-fx-background-radius: 20;
+	-fx-padding: 5;
+}
+
+.lbl-prayer-name {
+	-fx-font-size: 26px;
+	-fx-text-fill: -second-color;
+}
+
+.lbl-prayer-time {
+	-fx-font-size: 26px;
+	-fx-text-fill: #37436ec8 ;
+}
+
+/* End content part */
+
+/* Start settings part */
+
+.settings {
+    -fx-background-radius: 8;
+}
+
+.settings-header {
+    -fx-background-radius: 8 8 0 0;
+    -fx-background-color: -second-color;
+}
+
+.settings-header-title {
+    -fx-font-size: 28px;
+    -fx-text-fill: #FFF;
+}
+
+.settings-content {
+    -fx-background-color: -primary-color;
+    -fx-border-width: 0 2px 2px 2px;
+    -fx-border-color: -second-color;
+    -fx-border-style: solid;
+    -fx-border-radius: 0 0 8 8;
+}
+
+.settings-content-title {
+    -fx-text-fill: -second-color;
+    -fx-font-size: 22px;
+}
+
+.settings-content-txt {
+    -fx-text-fill: #4d1303;
+    -fx-font-size: 20px;
+}
+
+.settings-content-tgl {
+    -jfx-untoggle-color: #DDD;
+    -jfx-toggle-color: -second-color;
+}
+
+.settings-content-combo {
+    -fx-pref-width: 180px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 20px;
+}
+
+.settings-content-icon {
+    -fx-icon-color: #0EE
+}
+
+.settings-content-icon:hover {
+    -fx-icon-color: -second-color;
+    -fx-cursor: hand
+}
+
+/* End settings part */
+
+/* Start adhan part */
+
+.adhan-container {
+    -fx-background-radius: 20 20 20 20;
+    -fx-background-color: -success-color;
+}
+
+.adhan-title {
+    -fx-font-size: 35px;
+    -fx-text-fill: #EEE
+}
+
+.adhan-desc {
+    -fx-font-size: 24px;
+    -fx-fill: #EEE
+}
+
+/* End adhan part */
